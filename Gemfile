@@ -16,6 +16,7 @@ gem 'turbolinks', '~> 5'
 gem 'pg'
 gem 'jbuilder', '~> 2.5'
 gem 'materialize-sass'
+gem 'slim'
 
 
 group :development, :test do
