@@ -1,0 +1,14 @@
+.row
+  .col.s6
+    = simple_form_for [:admin, train_station] do |f|
+      .input-field
+        = f.input :name
+      .input-field
+        = f.input :address
+      .input-field
+        = f.input :phone
+      .input-field
+        = f.input :info, as: :text, input_html: { class: 'materialize-textarea' }
+      => link_to 'Cancel', admin_train_stations_path, class: 'waves-effect waves-light btn red'
+      | &nbsp;
+      = f.submit 'Save', class: 'waves-effect waves-light btn'

@@ -1,0 +1,16 @@
+h4
+  | Train Stations
+  = link_to new_admin_train_station_path, class: 'btn-floating btn-large waves-effect waves-light red right' do
+    i.material-icons add
+
+table
+  thead
+    tr
+      th Name
+      th Address
+      th Phone
+      th Info
+      th
+      th
+  tbody
+    = render @train_stations

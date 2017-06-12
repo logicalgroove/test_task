@@ -17,6 +17,8 @@ gem 'pg'
 gem 'jbuilder', '~> 2.5'
 gem 'materialize-sass'
 gem 'slim'
+gem 'devise'
+gem 'simple_form'
 
 
 group :development, :test do

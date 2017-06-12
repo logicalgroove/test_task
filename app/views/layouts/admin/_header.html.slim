@@ -1,0 +1,6 @@
+nav
+  .nav-wrapper
+    .container
+      = link_to 'Railway Admin', admin_root_path, class: 'brand-logo'
+      ul#nav-mobile.right.hide-on-med-and-down
+        li= link_to 'Log out', destroy_admin_user_session_path, method: :delete
