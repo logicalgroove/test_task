@@ -1,6 +1,12 @@
 @import 'materialize';
 @import "https://fonts.googleapis.com/icon?family=Material+Icons";
 
+@media #{$large-and-up} {
+  .container {
+    width: 80%;
+  }
+}
+
 .btn-full {
   width: 100%;
 }

@@ -41,7 +41,7 @@ module Admin
     end
 
     def ts_params
-      params.require(:train_station).permit(:name, :address, :info, :phone)
+      params.require(:train_station).permit(:name, :address, :info, :phone, :beverage_store_open, :beverage_store_close)
     end
   end
 end

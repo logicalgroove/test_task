@@ -19,7 +19,7 @@ gem 'materialize-sass'
 gem 'slim'
 gem 'devise'
 gem 'simple_form'
-
+gem 'rails-assets-pickadate', source: 'https://rails-assets.org'
 
 group :development, :test do
   gem 'byebug', platform: :mri

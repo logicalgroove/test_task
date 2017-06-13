@@ -14,4 +14,11 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require materialize-sprockets
+//= require pickadate
 //= require_tree .
+
+
+$(document).on('turbolinks:load', function() {
+  $('.timepicker').pickatime();
+});
+
